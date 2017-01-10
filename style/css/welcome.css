@@ -9,10 +9,18 @@ html {
     width: 100%;
     height: 100%;
 }
+.icon-android {
+    background: url(img/icon-android.png) no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
 .icon {
     background: url(img/icon.png) no-repeat;
     background-size: 100% 100%;
     overflow: hidden;
+}
+.download_box .left .icon-android {
+    margin-top: 10px;
 }
 .iphone_icon {
     background: url(img/iphone.png) no-repeat;
@@ -20,6 +28,11 @@ html {
 .download_box .item_pc {
     text-align: center!important;
     border: 1px solid #fff;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.download_box .item_android {
+    margin-top: 72px;
 }
 
 .head {
@@ -99,7 +112,7 @@ html {
 
 
 
-@media all and ( max-height : 660px) {
+@media all and ( max-device-height : 660px) {
     .my_section{
         transform:scale(.8);
         -webkit-transform:scale(1);
@@ -112,7 +125,7 @@ html {
 }
 
 .my_codoon {
-    padding-top: 18%;
+    padding-top: 60px;
 }
 .my_codoon .text1_box {
     height: 54px;
@@ -139,7 +152,7 @@ html {
 }
 
 .download_box {
-    margin-top: 20%;
+    margin-top: 30px;
 }
 .download_box .left {
     float: left;
@@ -315,7 +328,7 @@ html {
     left: 160px;
 }
 
-@media (max-width: 1024px){
+@media (max-device-width: 1024px){
     .rom_txt{zoom: 0.8;}
     .cod_rom {zoom: 0.8;}
     .shouhuanImg{zoom: 0.8;}
@@ -328,12 +341,12 @@ html {
     }
 }
 
-@media (max-width: 860px){
+@media (max-device-width: 860px){
       .iphone {
        top: 80%;
     }
 }
- @media (max-width: 480px) {
+ @media (max-device-width: 480px) {
     .my_section{width: 100%; padding-top: 50px;}
     .rom_txt h2 {
             font-size: 22px;
@@ -469,7 +482,7 @@ html {
 
  }
 
-@media (max-width: 320px){
+@media (max-device-width: 320px){
       .iphone {
        top: 80%;
     }
@@ -484,13 +497,13 @@ html {
 }
 
 /* 包含标题和底部内容时处理 */
-@media screen and (min-width: 375px) and (min-height: 580px) and (max-height: 610){
+@media screen and (min-width: 375px) and (min-height: 580px) and (max-device-height: 610){
     .iphone .iphone_img {
         left: 10px;
     }
 }
 
-@media screen and (min-width: 400px) and (min-height: 200px) and (max-height: 414px){
+@media screen and (min-width: 400px) and (min-height: 200px) and (max-device-height: 414px){
     .my_codoon {
         padding-top: 5%;
     }
@@ -567,7 +580,7 @@ html {
     -moz-animation-fill-mode: both;
             animation-fill-mode: both;
 }
-@media ( max-height : 570px) and ( min-height:461px) {
+@media ( max-device-height : 570px) and ( min-height:461px) {
     .iphone .iphone_img {
         background-size: 200%!important;
         zoom: .7!important;
