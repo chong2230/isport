@@ -19,20 +19,12 @@ html {
     background-size: 100% 100%;
     overflow: hidden;
 }
-.download_box .left .icon-android {
-    margin-top: 10px;
-}
 .iphone_icon {
     background: url(img/iphone.png) no-repeat;
 }
 .download_box .item_pc {
     text-align: center!important;
     border: 1px solid #fff;
-    margin-top: 30px;
-    margin-left: 30px;
-}
-.download_box .item_android {
-    margin-top: 72px;
 }
 
 .head {
