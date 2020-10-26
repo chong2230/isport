@@ -44,10 +44,22 @@ function browserRedirect() {
             $(".my_section").css("zoom",1);
         } else {
             var t = (windowHeight - 135) / 600;
+            if (getIsWxClient()) t = (windowHeight - 135 - 64) / 600;
             $(".my_section").css("zoom",t);
         }
     }
 }
+
+/**
+ * 判断是否是微信环境
+ */
+function getIsWxClient () {
+    var ua = navigator.userAgent.toLowerCase();
+    if (ua.match(/MicroMessenger/i) == "micromessenger") {
+        return true;
+    }
+    return false;
+};
 
 //hejia 2014-11-19 add
 
