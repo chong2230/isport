@@ -16,6 +16,9 @@ jquery
 #### 使用说明
 下载项目后，点击index.html即可运行。
 
+#### 屏幕截图
+![PC效果图](https://gitee.com/chong2230/isport/blob/master/screenshot/1.png)
+![H5效果图](https://gitee.com/chong2230/isport/blob/master/screenshot/2.png)
 
 #### 参与贡献
 
